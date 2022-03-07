@@ -6,7 +6,7 @@ To use prepare the use of the script use the following
 pip install -r requirements.txt
 ```
 ## Data format
-The dataset must be in a ```.csv``` format with the <ins>text</ins> column named as ```full_note``` and the <ins>label</ins> column named as ```codes```.
+The dataset must be in a ```.csv``` format with the <ins>text</ins> column named as ```full_note``` and the <ins>label</ins> column named as ```codes```. The text is expected in a ```string``` format and the labels are expected in ```string,string``` format.
 ## Configuration file
 The configuration file is the place where the parameters of the training session can be defined. The total options are
 ```json
