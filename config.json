@@ -1,0 +1,19 @@
+{
+  "csv_data_path": "/path/to/the/csv/training/file.csv",
+  "save_name": "/name_of_the_output_folder_within_the_model_path/",
+  "model_path": "/path/to/the/BERT/model/and/tokenizer/",
+  "parameters": {
+    "epochs": 10,
+    "learning_rate": 0.00002,
+    "patience": 1,
+    "batch": {
+      "size": 4,
+      "accumulation": 16
+    }
+  },
+  "random_state": 123,
+  "checkpoints": {
+    "path": "/path/to/a/folder/containing/a/number/of/bert/checkpoints/",
+    "flag": "checkpoint-in-name-flag-*"
+  }
+}
