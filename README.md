@@ -30,12 +30,12 @@ The configuration file is the place where the parameters of the training session
   }
 }
 ```
-##Execution
+## Execution
 The file accepts as an argument the path to the ```config.json``` file which by default will first look for a <ins>config</ins> file with that name within the same folder as the <ins>python</ins> file.
 
 To execute the file with a different configuration file name or path use
 ```bash
 python MultiLabelClassification.py -config_dir /path/to/config/file.json
 ```
-##Output
+## Output
 The output will be saved in the specified folder and will report **Accuracy**, **Precision**, **Recall**, and **F1-score** for a separate test set, using 10% of the original dataset.
