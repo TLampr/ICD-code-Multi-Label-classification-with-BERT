@@ -1,7 +1,7 @@
 # ICD-codes Multi-Label classification with BERT
 A script built with the [transformers](https://huggingface.co/docs/transformers/index) and [datasets](https://huggingface.co/docs/datasets/index) packages.
 ## Requirements
-To use prepare the use of the script use the following
+First install the requirements with the following
 ```bash
 pip install -r requirements.txt
 ```
